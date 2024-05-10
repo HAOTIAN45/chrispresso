@@ -400,26 +400,28 @@ footer .copyright span {
         top: 100%;
         right: -100%;
         background-color: #fff;
-        width: 30rem;
-        height: 100vh;
+        width: 100%;
+        height: 40vh;
         transition: 0.3s;
     }
 
     .navbar .navbar-nav.active {
-        right: -10rem;
-        background-color: #4e3723;
+        right: 0em;
+        background-color: #140e08;
     }
 
     .navbar .navbar-nav a {
+        text-align: center;
         color: var(--bg);
         display: block;
         margin: 1.5rem;
         padding: 0.5rem;
         font-size: 2rem;
+        color: #fff;
     }
 
     .navbar .navbar-nav a::after {
-        transform-origin: 0 0;
+        transform-origin: 1 0.5rem;
     }
 
     .navbar .navbar-nav a:hover::after {
